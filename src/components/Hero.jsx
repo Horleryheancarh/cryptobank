@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-
 import { styles } from '../styles';
 
 const Hero = () => {
@@ -15,6 +13,10 @@ const Hero = () => {
           <br />
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Crypto Investment Platform
+          </p>
+          <br />
+          <p className={`${styles.heroSubText} mt-2 text-purple-400 rounded`}>
+            <a href='#login'>Login</a>
           </p>
         </div>
       </div>
